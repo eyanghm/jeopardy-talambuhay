@@ -6,26 +6,25 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What US state is the Land of Lincoln?',
-        answer: 'Illinois',
+        question: 'What US state is the Garden State?',
+        answer: 'New Jersey',
     },
     {
         points: 200,
         question:
-            'Which country\'s flag is this?',
-        imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
-        answer: 'Myanmar',
+            'When was the first case of COVID-19 recorded in the US?',
+        answer: '2020 (Year I moved from NJ to NY)',
     },
     {
         points: 300,
         question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+            'What is the end date of the Cancer zodiac sign?',
+        answer: 'July 22 (Also my birthday!)',
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: 'What country is 1 of the 2 that have square flags?',
+        answer: 'Switzerland (First European country I visited)',
     }
 ]);
 
@@ -74,15 +73,15 @@ const futureQuestions: Question[] = sortQuestions([
 
 const categories = [
     {
-        title: 'Ms Feng\'s Past',
+        title: 'Ella\'s Past',
         questions: pastQuestions
     },
     {
-        title: `Ms. Feng's Present`,
+        title: `Ella's Hobbies and Interests'`,
         questions: presentQuestions
     },
     {
-        title: "Ms. Feng's Future",
+        title: "Ella's Favorites",
         questions: futureQuestions
     }
 ];
