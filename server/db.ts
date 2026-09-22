@@ -24,39 +24,35 @@ const pastQuestions: Question[] = sortQuestions([
     {
         points: 400,
         question: 'What country is 1 of the 2 that have square flags?',
-        answer: 'Switzerland (First European country I visited)',
+        answer: 'Switzerland (First foreign country I visited)',
     }
 ]);
 
 const presentQuestions: Question[] =
     sortQuestions([
         {
-            points: 400,
+            points: 300,
             question:
-                'This is Donu, a character from which video game?',
-            imgSrc: '/donu-gif.gif',
-            answer: 'Slay the Spire',
+                'A group of these animals is called a waddle on land, a raft in the water, and a colony or rookery when nesting',
+            answer: 'Penguin',
+        },
+        {
+            points: 200,
+            question:
+                'What sport do Alexandra Trusova, Yuzura Hanyu, and Yuna Kim all have in common?',
+            answer: 'Figure Skating',
+        },
+        {
+            points: 400,
+            question: 'What city and country country is this?',
+            imgSrc: 'Spain.png',
+            answer: 'Spain',
         },
         {
             points: 100,
             question:
-                'Tahini is made from which seed?',
-            imgSrc: 'https://www.aforkstale.com/wp-content/uploads/how-to-make-homemade-tahini-1200-x-1200.jpg',
-            answer: 'Sesame',
-        },
-        {
-            points: 200,
-            question: 'What programming language is the below code?',
-            imgSrc: '/programming_language.png',
-            answer: 'Javascript',
-        },
-        {
-            points: 300,
-            question:
-                'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
-            imgSrc:
-                "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-            answer: 'Italy',
+                'What branch of math studies the sizes, shapes, positions, and dimensions of things?',
+            answer: 'Geometry',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
@@ -77,11 +73,11 @@ const categories = [
         questions: pastQuestions
     },
     {
-        title: `Ella's Hobbies and Interests'`,
+        title: `Ella's Present`,
         questions: presentQuestions
     },
     {
-        title: "Ella's Favorites",
+        title: "Ella's Future",
         questions: futureQuestions
     }
 ];
