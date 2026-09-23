@@ -52,7 +52,7 @@ const presentQuestions: Question[] =
         {
             points: 400,
             question: 'What city and country is this?',
-            imgSrc: '/Spain.png',
+            imgSrc: '/Spain.jpeg',
             answer: 'Madrid, Spain',
         }
     ]);
