@@ -11,59 +11,87 @@ const pastQuestions: Question[] = sortQuestions([
     },
     {
         points: 200,
-        question:
-            'When was the first case of COVID-19 recorded in the US?',
-        answer: '2020 (Year I moved from NJ to NY)',
+            question:
+                'What language is this?',
+            imgSrc: '/chinese.jpg',
+            answer: '2020',
     },
     {
         points: 300,
         question:
             'What is the end date of the Cancer zodiac sign?',
-        answer: 'July 22 (Also my birthday!)',
+        answer: 'July 22',
     },
     {
         points: 400,
         question: 'What country is 1 of the 2 that have square flags?',
-        answer: 'Switzerland (First foreign country I visited)',
+        answer: 'Switzerland',
     }
 ]);
 
 const presentQuestions: Question[] =
     sortQuestions([
         {
+            points: 100,
+            question:
+                'What branch of math studies the sizes, shapes, positions, and dimensions of things?',
+            answer: 'Geometry',
+        },
+        {
+            points: 200,
+            question:
+                'What sport have Alexandra Trusova, Yuzura Hanyu, and Yuna Kim all competed in?',
+            answer: 'Figure Skating',
+        },
+        {   
             points: 300,
             question:
                 'A group of these animals is called a waddle on land, a raft in the water, and a colony or rookery when nesting',
             answer: 'Penguin',
         },
         {
-            points: 200,
-            question:
-                'What sport do Alexandra Trusova, Yuzura Hanyu, and Yuna Kim all have in common?',
-            answer: 'Figure Skating',
-        },
-        {
             points: 400,
-            question: 'What city and country country is this?',
-            imgSrc: 'Spain.png',
-            answer: 'Spain',
-        },
-        {
-            points: 100,
-            question:
-                'What branch of math studies the sizes, shapes, positions, and dimensions of things?',
-            answer: 'Geometry',
+            question: 'What city and country is this?',
+            imgSrc: '/Spain.png',
+            answer: 'Madrid, Spain',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'This type of 2D drawing allows you to see the sides of a 3D object at the same scale.',
+            'What art medium is this?',
         imgSrc:
-            "https://static.mathigon.org/cms/a8141a111490d026fa6578a4933d1d47.png",
-        answer: 'Isometric',
+            "/graphite.jpg",
+        answer: 'Graphite',
+    },
+
+    {
+        points: 200,
+        question:
+            'What school logo is this? When would a student in the class of 2025 graduate college?',
+        imgSrc:
+            '/chicago.png',
+        answer: 'University of Chicago, 2029',
+    },
+
+    {
+        points: 300,
+        question:
+            'What country was bubble tea invented in?',
+        answer: 'Taiwan',
+    },
+
+    {
+        points: 400,
+        question:
+            'What store is this?',
+        imgSrc:
+            '/miniso.jpg',
+        answer: 'Miniso',
     }
+
+
 ]);
 
 
