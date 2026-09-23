@@ -14,7 +14,7 @@ const pastQuestions: Question[] = sortQuestions([
             question:
                 'What language is this?',
             imgSrc: '/chinese.jpg',
-            answer: '2020',
+            answer: 'Chinese',
     },
     {
         points: 300,
